@@ -33,6 +33,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          - php-version: "8.2"
+            arch: "x64"
           - php-version: "8.1"
             arch: "x64"
           - php-version: "8.0"
